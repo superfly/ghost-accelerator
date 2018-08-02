@@ -14,7 +14,7 @@ const ghost = proxy(`https://${subdomain}.ghost.io`,
 const imageWidths = {
   "site-header": {
     width: 1900,
-    selector: ".site-header outer"
+    selector: ".site-header.outer"
   },
   "post-feed": {
     width: 320,
