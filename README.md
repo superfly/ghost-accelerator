@@ -1,6 +1,6 @@
 # Ghost accelerator for responsive images
 
-We managed to make a Ghost blog about 30% faster by integrating it into a Fly Edge App ... shown in the Lighthouse scores below.
+We managed to make a Ghost blog about 30% faster by integrating it into a Fly Edge App ... shown in the Lighthouse scores below. This Fly App optimizes images by properly sizing images on-the-fly and converting images to webp.
 
 ## Lighthouse Score Before
 
