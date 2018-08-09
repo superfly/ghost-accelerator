@@ -70,8 +70,4 @@ function resizeGhostImages(fetch) {
     resp.headers.delete("content-length")
     return resp
   }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 06c7da2b12730fe473a1545a2ccc3403b9eb3bfa
