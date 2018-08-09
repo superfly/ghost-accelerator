@@ -2,6 +2,7 @@ import proxy from '@fly/proxy';
 import { processImages } from './src/images';
 import { withDocument } from './src/html';
 
+
 const subdomain = "demo"
 const ghost = proxy(`https://${subdomain}.ghost.io`,
   {
@@ -70,7 +71,3 @@ function resizeGhostImages(fetch) {
     return resp
   }
 }
-
-
-
-

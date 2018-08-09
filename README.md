@@ -1,18 +1,27 @@
-# Ghost accelerator for responsive images
+# Ghost accelerator
 
-We managed to make a Ghost blog about 30% faster by integrating it into a Fly Edge App ... shown in the Lighthouse scores below. This Fly App optimizes images by properly sizing images on-the-fly and converting images to webp.
+This application accelerates a Ghost Blog by optimizing assets, and improves Lighthouse scores dramatically. It works out of the box for the default Casper theme and can be easily modified to support other themes.
 
-## Lighthouse Score Before
+## Lighthouse
 
-![Ghost Performance Score Before](images/GhostBefore@2x.png "Ghost Performance Score Before")
+Google Lighthouse measures user perceived application performance, and assigns a score of 0-100 (100 is good, 0 is gross). 
 
-![Ghost Performance Score Before](images/GhostBefore2@2x.png "Ghost Performance Score Before")
+### Before optimizations
 
-## Lighthouse Score After
+![Ghost Performance Score Before](images/GhostLHBefore@2x.png "Ghost Performance Score Before")
 
-![Ghost Performance Score After](images/GhostAfter@2x.png "Ghost Performance Score After")
+### With optimizations
 
-![Ghost Performance Score After](images/GhostAfter2@2x.png "Ghost Performance Score After")
+![Ghost Performance Score After](images/GhostLHAfter@2x.png "Ghost Performance Score After")
+
+![Ghost Performance Score After](images/GhostLHAfter2@2x.png "Ghost Performance Score After")
+
+## What it does
+
+The Casper theme is well designed and loads JavaScript + Style assets intelligently. This app primarily optimizes images:
+
+1. Serves webp when browsers send an `Accept: image/webp` header
+2. Resizes images in listings to fit the styles
 
 ## Try it yourself
 
