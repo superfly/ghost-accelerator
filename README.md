@@ -8,15 +8,7 @@ Google Lighthouse measures user perceived application performance, and assigns a
 
 ### Before optimizations
 
-![Ghost Performance Score Before](images/GhostBefore@2x.png "Ghost Performance Score Before")
-
-![Ghost Performance Score Before](images/GhostBefore2@2x.png "Ghost Performance Score Before")
-
 ### With optimizations
-
-![Ghost Performance Score After](images/GhostAfter@2x.png "Ghost Performance Score After")
-
-![Ghost Performance Score After](images/GhostAfter2@2x.png "Ghost Performance Score After")
 
 ## What it does
 
