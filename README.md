@@ -22,6 +22,7 @@ The Casper theme is well designed and loads JavaScript + Style assets intelligen
 
 1. Serves webp when browsers send an `Accept: image/webp` header
 2. Resizes images in listings to fit the styles
+3. Adds `srcset` attributes to image tags, which defines multiple sizes of the same image, allowing the browser to appropriately select which image source to use based on device size
 
 ## Try it yourself
 
