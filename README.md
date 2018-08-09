@@ -3,18 +3,36 @@
 This application accelerates a Ghost Blog by optimizing assets, and improves Lighthouse scores dramatically. It works out of the box for the default Casper theme and can be easily modified to support other themes.
 
 ## Lighthouse
+<<<<<<< HEAD
+=======
+
+Google Lighthouse measures user perceived application performance, and assigns a score of 0-100 (100 is good, 0 is gross). 
+
+### Before optimizations
+>>>>>>> b008fce5391502073a4093638e60d73594633e4c
 
 Google Lighthouse measures user perceived application performance, and assigns a score of 0-100 (100 is good, 0 is gross). 
 
 ### Before optimizations
 
+<<<<<<< HEAD
 ![Ghost Performance Score Before](images/GhostLHBefore@2x.png "Ghost Performance Score Before")
+=======
+### With optimizations
+>>>>>>> b008fce5391502073a4093638e60d73594633e4c
 
 ### With optimizations
 
 ![Ghost Performance Score After](images/GhostLHAfter@2x.png "Ghost Performance Score After")
 
 ![Ghost Performance Score After](images/GhostLHAfter2@2x.png "Ghost Performance Score After")
+
+## What it does
+
+The Casper theme is well designed and loads JavaScript + Style assets intelligently. This app primarily optimizes images:
+
+1. Serves webp when browsers send an `Accept: image/webp` header
+2. Resizes images in listings to fit the styles
 
 ## What it does
 
