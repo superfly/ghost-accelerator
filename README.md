@@ -11,6 +11,7 @@ Google Lighthouse measures user perceived application performance, and assigns a
 ### Before optimizations
 >>>>>>> b008fce5391502073a4093638e60d73594633e4c
 
+<<<<<<< HEAD
 Google Lighthouse measures user perceived application performance, and assigns a score of 0-100 (100 is good, 0 is gross). 
 
 ### Before optimizations
@@ -34,6 +35,10 @@ The Casper theme is well designed and loads JavaScript + Style assets intelligen
 1. Serves webp when browsers send an `Accept: image/webp` header
 2. Resizes images in listings to fit the styles
 
+=======
+### With optimizations
+
+>>>>>>> 6c1c356962ea893b89ff970d97d734c93335a449
 ## What it does
 
 The Casper theme is well designed and loads JavaScript + Style assets intelligently. This app primarily optimizes images:
