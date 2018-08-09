@@ -1,5 +1,5 @@
-# Ghost accelerator
 
+<<<<<<< HEAD
 This application accelerates a Ghost Blog by optimizing assets, and improves Lighthouse scores dramatically. It works out of the box for the default Casper theme and can be easily modified to support other themes.
 
 ## Lighthouse
@@ -64,3 +64,5 @@ You should now see your own Ghost Blog with properly sized, optimized images in 
 8. Run `fly login` (make sure you have a Fly account first, if you don’t, register at https://fly.io/app/sign-up)
 9. Run `fly apps create <app-name>` to create a Fly Edge App
 10. Then run `fly deploy` to deploy your Fly Edge App
+=======
+>>>>>>> 23bca0c06f7b8f8d5fa62899faba78fb3958e501
